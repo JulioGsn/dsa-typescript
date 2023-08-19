@@ -1,13 +1,11 @@
 export function binary_search(arr: number[], target: number): boolean {
-    let found = false;
     let lo = 0;
     let hi = arr.length;
     let m = Math.floor((hi - lo) / 2);
     
     while (lo <= hi) {
         if(arr[m] == target) {
-            found = true;
-            break;
+            return true;
         } else if(arr[m] < target) {
             lo = m + 1;
         } else {
@@ -17,6 +15,6 @@ export function binary_search(arr: number[], target: number): boolean {
         m = Math.floor((hi - lo) / 2) + lo;
     }
 
-    return found;
+    return false;
 }
 
