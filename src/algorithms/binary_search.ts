@@ -1,6 +1,6 @@
 export function binary_search(arr: number[], target: number): boolean {
     let lo = 0;
-    let hi = arr.length;
+    let hi = arr.length - 1;
     let m = Math.floor((hi - lo) / 2);
     
     while (lo <= hi) {
