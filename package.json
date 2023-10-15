@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "tsc && node dist/index.js",
     "build": "tsc",
-    "test": "npx jest"
+    "test": "npm jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
