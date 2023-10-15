@@ -13,5 +13,5 @@ test('Target index not found in ternary search', () => {
     const target = 10;
     
     const result = ternary_search(arr, target);
-    expect(result).toBe(1);
+    expect(result).toBe(-1);
 });
