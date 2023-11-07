@@ -1,4 +1,5 @@
 {
     "binary_search": "src/tests/binary_search.test.ts",
-    "linear_search": "src/tests/linear_search.test.ts"
+    "linear_search": "src/tests/linear_search.test.ts",
+    "linked_list": "src/tests/linked_list.test.ts"
 }
