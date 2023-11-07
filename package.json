@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "tsc && node dist/index.js",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "node customTestRunner.js"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
